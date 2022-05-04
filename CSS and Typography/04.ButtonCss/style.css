@@ -1,0 +1,14 @@
+button {
+    border-radius: 25px;
+    padding: 5px;
+    font-size: 16px;
+    margin-right: 15px;
+    cursor: pointer;
+    outline: none;
+
+}
+
+a {
+    text-decoration: none;
+   
+}
