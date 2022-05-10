@@ -1,0 +1,16 @@
+img {
+    border: 0.4rem solid black;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    max-height: 450px;
+}
+
+div {
+    width: 100%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
