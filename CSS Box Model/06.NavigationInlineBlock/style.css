@@ -1,0 +1,32 @@
+body {
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Helvetica, serif';
+}
+
+h1 {
+    display: inline-block;
+    width: 25%;
+  
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 15px;
+    font-size: 14px;
+    
+    
+}
+
+nav {
+    margin-top: 40px;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: #2F9F16;
+}
+
