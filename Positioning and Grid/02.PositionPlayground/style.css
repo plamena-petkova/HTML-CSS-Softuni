@@ -1,4 +1,52 @@
-.card {
-    display: block;
-    /* position: absolute; */
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+.viewport  {
+    height: 100vh;
+    position: relative;
+   
 }
+
+.viewport:first-of-type {
+    background-color: #0000ff;
+    background-image: linear-gradient(
+        to right top, 
+        #0000ff,
+         #001eca, 
+         #001f93, 
+         #00185d, 
+         #050b29);
+
+}
+
+
+.viewport:last-of-type {
+    background-color: #845ec2;
+    background-image: linear-gradient(
+      to right,
+      #845ec2,
+      #c05cb0,
+      #e66599,
+      #fa7a82,
+      #ff9671
+    );
+  }
+
+  .viewport .card {
+      position: absolute;
+      width: 40vh;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%)
+  }
+
+  .viewport .card img {
+    width: 100%;
+  }
+
+  .viewport .card i {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    color: #fff;
+  }
+
