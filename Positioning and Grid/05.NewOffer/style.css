@@ -1,0 +1,32 @@
+/* body {
+    position: relative;
+    height: 100vh;
+}
+
+.cup {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.new {
+    position: relative;
+    top:8%;
+    left:55%;
+} */
+
+
+
+
+main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+}
+
+.new {
+    position: relative;
+    top:-200px;
+    left:-150px;
+}
