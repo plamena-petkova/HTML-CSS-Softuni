@@ -2,7 +2,7 @@
 
 .viewport  {
     height: 100vh;
-    position: relative;
+    position: relative;  
    
 }
 
@@ -32,6 +32,7 @@
   }
 
   .viewport .card {
+      display: block;
       position: absolute;
       width: 40vh;
       top: 50%;
