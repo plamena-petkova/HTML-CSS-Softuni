@@ -1,0 +1,31 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  
+}
+
+
+.mini-nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 40px;
+    margin-left: 20px;
+
+    
+}
+
+.logo-nav {
+    max-width: 140px;
+    margin-right: auto;
+    padding-left: 30px;
+}
+
