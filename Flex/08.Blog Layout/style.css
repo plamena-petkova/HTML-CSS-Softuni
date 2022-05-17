@@ -1,27 +1,87 @@
 body {
     background-color: rgb(238, 238, 238);
+    padding: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: Georgia, serif;
+ 
 }
 
-.container {
+.wrapper {
+    display: flex;
+}
+
+.page {
     display: flex;
     flex-wrap: wrap;
+    flex-basis: 60%;
+    padding: 20px;
+    margin: 20px;
 }
 
+aside {
+    flex-basis: 30%;
+    padding: 20px;
+    margin:20px;
+}
+
+
+
+
 img {
-    
     background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 2px solid black;
+    box-shadow: 1px 1px 14px black;
+    margin: 20px;
+   
 }
 
 .img1 {
-    float: left;
+    float:right;
 }
 
-blockquote {
+.img2 {
+    float:left;
+}
+
+span {
+    float: right;
+}
+
+blockquote { 
     font-family: Georgia, serif;
+    font-style: italic;
+    
+}
+
+
+
+.quote {
+    display: flex;
+   
+}
+
+.quote p {
+    flex-basis: 50%;
+    
+}
+
+.quote-p {
+    border-right: 3px solid #E4E4E4;
+    padding-right: 30px;
+}
+
+.author {
+    margin: 20px;
+    float: right;
+    padding: 20px; 
+}
+
+.quote blockquote {
+    flex-basis: 50%;
+    color: #4B4C4D;
 }
 
 aside a {
