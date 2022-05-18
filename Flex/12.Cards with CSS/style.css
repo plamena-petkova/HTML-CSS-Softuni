@@ -1,0 +1,32 @@
+body {
+    margin:0;
+    background-color: rgb(238, 238, 238);
+    font-family: Helvetica, sans-serif;
+}
+
+/* .cards-layout .masonry {
+    display: flex;
+  
+} */
+
+.card-layout {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+h2 {
+    font-family: Georgia, serif;
+}
+
+article {
+   background-color: white;
+   border: 1px solid grey;
+   box-shadow: 1px 1px 1px black;
+    border-radius: 12px;
+}
+
+img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
