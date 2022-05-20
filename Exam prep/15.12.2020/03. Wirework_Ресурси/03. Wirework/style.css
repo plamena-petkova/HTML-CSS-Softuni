@@ -1,0 +1,167 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+
+body {
+    margin:0;
+    font-family: 'Helvetica', 'sans-serif';
+}
+
+*, **, ::before, ::after {
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    /* margin-top:0; */
+}
+
+main {
+    margin-top: -5px;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 2px;
+    margin-top: -7px;
+    
+}
+
+.navigation li {
+    list-style-type: none;
+}
+
+.navigation li a {
+    text-decoration: none;
+    background-color: #ECECEC;
+    padding: 15px 20px;
+    color: #434343;
+    
+}
+
+.navigation li a:hover {
+    background-color: #E24E2A;
+    color: white;
+}
+
+.navigation-home {
+    display: flex;
+    margin-left: 0;
+}
+
+.navigation-home-btn {
+    display: flex;
+    margin-right: 30px
+}
+
+.navigation-home-btn li {
+    margin: 0;
+}
+
+.navigation-subtext {
+    margin-top:20px;
+    color: #2C383B;
+    font-size: 12px;
+}
+
+.navigation-text {
+    color: #2C383B;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 0 20px;
+    border-right: 2px solid #C5C5C5;
+}
+
+.img {
+    width: 100%;
+   
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+    max-height: 500px;
+    object-fit: cover;;
+        /* position: absolute;
+        top: -37px;
+        z-index: -1; */
+}
+
+
+.content {
+    text-align: center;
+    background-color: #E24E2A;
+    padding-left: 230px;
+    padding-right:230px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    /* margin: 30px auto; */
+    margin-bottom: 30px;
+    /* margin-top: 15px; */
+    /* position: absolute; */
+    bottom: -50%;
+    color: #F1C5C8;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+
+span {
+    text-decoration: underline;
+}
+
+.additional-info {
+    display: flex;
+    background-color:#383838;
+    height: 500px;
+    /* margin-top: -35px; */
+    /* position: absolute;
+    bottom: -50.5%; */
+}
+
+/* .additional {
+    background-color: #E24E2A;
+    color: white;
+} */
+
+.additional-info {
+    width: 100%;
+    
+}
+
+i {
+    font-size: 45px;
+    background-color: #E24E2A;
+    padding: 30px;
+    margin: 10px;
+    color: white;
+    width: fit-content;
+    margin:0 auto;
+
+}
+
+.additional-subtext {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+
+.additional-subtext::after {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    bottom: -23px;
+    margin: 20px;
+
+}
