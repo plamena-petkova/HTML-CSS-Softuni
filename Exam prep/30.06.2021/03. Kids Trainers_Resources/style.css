@@ -29,6 +29,7 @@ nav{
 
 .links li {
     list-style-type: none;
+    margin-right: 20px;
 }
 
 .links a {
@@ -38,12 +39,12 @@ nav{
     margin: 6px;
 }
 
-img {
+.logo {
     width: 10%;
 }
 
 .content {
-    padding: 80px 20px;
+    padding: 65px 20px;
     background-color: #FFB402;
 }
 
@@ -57,4 +58,49 @@ img {
 
 .content-title {
     margin-bottom: 20px;
+}
+
+.lectors {
+    display: flex;
+    padding: 40px 20px;
+}
+
+.lectors-more {
+    display: flex;
+}
+
+.lectors-info-image{
+    width: 100%;
+
+}
+
+.info-image{
+    margin: 20px 50px;
+    width: fit-content;
+    border-radius: 50%;
+    border: 5px solid #41BEAD
+}
+
+.lectors-info {
+    display: flex;
+}
+
+.wrapper-name h3 {
+    color: #41BEAD;
+}
+
+.lector-name-position {
+    color: #B6BBC2;
+}
+
+.lector-name-resume {
+    color: #6A6872;
+}
+
+.wrapper-name {
+    margin-right:30px;
+}
+
+.lector-name {
+    margin-bottom: -10px;
 }
