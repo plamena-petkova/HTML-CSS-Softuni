@@ -62,7 +62,7 @@ nav{
 
 .lectors {
     display: flex;
-    padding: 40px 20px;
+    padding: 80px 120px;
 }
 
 .lectors-more {
@@ -71,14 +71,15 @@ nav{
 
 .lectors-info-image{
     width: 100%;
+    margin: 20px 50px;
+    border-radius: 50%;
+    border: 5px solid #41BEAD
 
 }
 
 .info-image{
-    margin: 20px 50px;
-    width: fit-content;
-    border-radius: 50%;
-    border: 5px solid #41BEAD
+    margin-right: 30px;
+   
 }
 
 .lectors-info {
@@ -98,9 +99,18 @@ nav{
 }
 
 .wrapper-name {
-    margin-right:30px;
+    margin-left: 45px;
 }
 
-.lector-name {
-    margin-bottom: -10px;
+.lector-img img {
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #41BEAD;
+    
+}
+
+.lector-img {
+    width: 200px;
+    
+  
 }
