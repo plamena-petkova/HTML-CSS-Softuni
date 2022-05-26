@@ -15,8 +15,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   margin-left: 50px;
-   margin-right: 50px;
+   margin-left: 30px;
+   margin-right: 30px;
    padding: 0 40px;
 }
 
@@ -28,8 +28,9 @@ nav{
 }
 
 .links li {
+    font-size: 15px;
     list-style-type: none;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .links a {
@@ -62,54 +63,75 @@ nav{
 
 .lectors {
     display: flex;
-    padding: 80px 120px;
+    padding: 80px 80px;
 }
 
 .lectors-more {
     display: flex;
+    margin: 30px 150px;
 }
 
 .lectors-info-image{
-    width: 100%;
-    margin: 20px 50px;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    margin: 20px 20px;
     border-radius: 50%;
     border: 5px solid #41BEAD
 
 }
 
 .info-image{
-    margin-right: 30px;
-   
+    /* margin-right: 30px; */
+    margin-top: 20px;
 }
 
 .lectors-info {
     display: flex;
 }
 
-.wrapper-name h3 {
+.lector-name {
+    text-align: start;
+}
+
+
+
+h3 {
     color: #41BEAD;
+    text-align: center;
 }
 
 .lector-name-position {
     color: #B6BBC2;
+    text-align: start;
+    margin-top: -10px;
 }
+
 
 .lector-name-resume {
     color: #6A6872;
 }
 
 .wrapper-name {
-    margin-left: 45px;
+    min-width: 350px;
 }
+
+.other-lectors{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 20px;
+}
+
+
 
 .lector-img img {
-    width: 100%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px 20px;
     border-radius: 50%;
-    border: 5px solid #41BEAD;
-    
+    border: 5px solid #41BEAD
 }
 
-.lector-img {
-    
-  
-}
+
+
