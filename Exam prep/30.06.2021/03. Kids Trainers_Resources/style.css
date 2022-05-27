@@ -1,3 +1,5 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
 body {
     margin:0;
     font-family: 'Helvetica', 'sans-serif';
@@ -133,5 +135,76 @@ h3 {
     border: 5px solid #41BEAD
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: #66B9F8;
+    padding: 35px 120px;
+}
+
+.form-title {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.form-text {
+    color: white;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.form-input {
+    background-color: #66B9F8;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.input-form-wrapper {
+   text-align: center;
+}
 
 
+.form-btn {
+    width: 120px;
+    border: none;
+    border-radius: 100px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #FF9100;
+    padding: 10px 25px;
+    font-weight: bold;
+    text-align:center;
+    box-shadow: 0px 0px 3px black;
+}
+
+.form {
+    border-top: 10px solid #92CDFB ;
+}
+
+.footer-list {
+    background-color: #565656;
+    display: flex;
+    padding: 20px 40px;
+    border-top: 10px solid  #919191;
+}
+
+
+.footer-list-item, .footer-list-title  {
+    color: #ede6da;
+    list-style-type: none;
+    margin: 10px 50px;
+}
+
+.footer-list-title {
+    line-height: 2.5;
+}
+
+i {
+    font-size: 25px;
+    margin: 5px;
+}
