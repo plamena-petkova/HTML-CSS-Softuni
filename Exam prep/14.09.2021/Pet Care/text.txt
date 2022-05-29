@@ -1,9 +1,8 @@
 
-Home About Services Contact
-We Care
-Your Pets
-Lorem ipsum dolor sit amet, consectetur
-adipiscing elit, sed do eiusmod. Contact Us
+  
+
+
+
 
 Services for every dog
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
