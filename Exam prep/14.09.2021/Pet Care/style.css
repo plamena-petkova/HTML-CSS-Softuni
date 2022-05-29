@@ -1,0 +1,47 @@
+body {
+    margin:0;
+    font-family: Helvetica, sans-serif;
+}
+
+*, **, ::before, ::after {
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    position: relative;
+}
+
+.mini-navbar {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mini-navbar li {
+    margin: 20px 20px;
+    list-style-type: none;
+}
+
+.img-background {
+    position: relative;
+}
+
+.background {
+    width: 100%;
+}
+
+.dog {
+    width: 59%;
+    position: absolute;
+    transform: translate(-100%, 12%);
+}
+
+.title {
+    position: absolute;
+    transform: translate(-100%, 12%);
+}
