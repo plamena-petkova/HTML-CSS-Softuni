@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
+body, footer {
+    margin: 0;
+    font-family: 'Raleway', 'sans-serif';
+
+}
+
+.menu {
+    float:right;
+    margin:10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+i {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.content {
+    padding: 100px 80px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.content-text-title,.content-text-title-second {
+    font-size: 40px;
+}
+
+.headings {
+    display: flex;
+    font-weight: bold;
+    margin-bottom: -50px;
+}
+
+
+.content-text-title {
+    margin-right: 5px;
+}
+
+.content-text-title-second {
+    font-weight: 300;
+   
+}
+
+
+
+.content-text {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    max-width: 400px;
+    margin-right: 50px;
+    margin-bottom: 0;
+}
+
+.wrapper p{
+    font-family: 'Raleway', 'serif';
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    font-size: 13px;
+}
+
+section, footer {
+    background-color: #EFEFEF;
+}
+
+.container   {
+    border-left: 1px solid black;
+}
+
+
+
+
+
+.image-camera {
+    width: 100%;
+   
+}
+
+.wrapper-second {
+    margin-left: 80px;
+    max-width: 500px;
+}
+
+.icons {
+    display: flex;
+    margin: 50px -10px;
+   
+}
+
+.icons i {
+    background-color: #909090;
+    color: white;
+    width: 20px;
+    height: 20px;
+    padding: 10px 10px;
+    align-items: center;
+}
+
+
+.big-image {
+    margin:-80px;
+}
+
+.big-image img {
+    width: 100%;
+}
+
+.image-bridge img {
+    width: 100%;
+}
+
+.image-bridge {
+    margin-left: 50px;
+}
+
+.images {
+    display: flex;
+    /* flex-direction: row; */
+    max-width: 1200px;
+    /* align-items: center; */
+}
+
+.images img {
+    width: 100%;
+}
+
+.big {
+    width: 160%;
+    
+ 
+}
+
+.images img :nth-child(2) {
+    flex-grow: 5;
+}
+
+.small {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+
+.images:nth-child(1) .images:nth-child(3) {
+    flex-grow: 1;
+}
+
+.hesdings {
+    text-align:center;
+}
+
+
+footer {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #242424;
+}
+
+.wrapper-all {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper-contact {
+    display: flex;
+}
