@@ -1,0 +1,73 @@
+@media all and (max-width: 600px) {
+    .banner h2 {
+        font-size: 1.4em;
+        width: 85%;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .banner {
+        padding: 3em 0 6em 0;
+    }
+
+    input[type="submit"], .button {
+        padding: 0 10.5em;
+    }
+
+    .features {
+        flex-direction: column;
+      
+    }
+
+    .feature {
+        padding: 2em 1em 0.1em 1em;
+        margin-left: 12px;
+        margin-top: 0px;
+        width: 46.333%;
+    }
+
+    .grid-form {
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .grid-form .form-control.narrow {
+        width: 88%;
+    }
+
+    .grid-form .form-control {
+        width: 88%;
+    }
+
+    .grid-form .actions {
+        width: 88%;
+    }
+
+    .footer::before {
+        background-color: #ddd;
+        left: 7%;
+        width: 85%;
+        top: -12px;
+      }
+
+    .footer {
+        padding: 2em 0 1em 0;
+    }
+
+    .wrapper {
+        padding: 0em 0 1em 0;
+    }
+
+    header {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+
+    header h2 {
+        text-align: center;
+    }
+ 
+ 
+
+}
