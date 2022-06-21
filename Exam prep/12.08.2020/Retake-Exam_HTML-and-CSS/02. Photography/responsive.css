@@ -1,1 +1,42 @@
-/* TODO: Add media queries */
+@media all and (max-width: 600px) {
+    header h1 {
+        font-size: 20px;
+    }
+
+
+
+    .icon.style2 {
+        padding: 0.3em;
+        font-size: 13px;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thumbnails {
+        flex-direction: column;
+    }
+
+    .thumbnails > div {
+        width: 100%;
+        padding-left: 1.5em;
+    }
+
+    .thumbnails a {
+        width: 385px;
+        height: 300px;
+        margin: 10px 10px;
+    }
+
+
+    .thumbnails a img {
+        display: block;
+        width: 100%;
+        border-top-left-radius: 4px;
+        border-top-right-radius: 4px;
+        object-fit: fill;
+        max-height: 230px;
+    }
+}
