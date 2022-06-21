@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@300;400;500&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+*, **, ::after, ::before {
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+    position: relative;
+}
+
+
+
+.background-image img {
+    position: relative;
+    opacity: 15%;
+    width: 110%;
+}
+
+.background img {
+    width: 100%;
+}
+
+.links-text-profile {
+    background-color: #42ABF8;
+    padding: 15px 5px;
+    margin: 5px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 7px grey;
+    border: none;
+    
+}
+
+
+
+
+
+
+
+.logo img {
+    width: 150%;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.links-text:nth-child(3)::after {
+    content: '';
+    border-top: 3px solid blue;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+
+
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-left: 60px;
+    margin-right: 50px;
+    box-shadow: 0px 0px 8px gray;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: -10px;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.links-text, .links-text-profile {
+    list-style-type: none;
+   
+}
+
+.links-text-item, .links-text-item-profile {
+    text-decoration: none;
+    margin: 10px 10px;
+    color: #425061;
+    font-weight: 500;
+}
+
+ .links-text-item-profile {
+    text-decoration: none;
+    margin: 10px 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.certificates {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+}
+
+.certificate-text {
+    width: 50%;
+    border: none;
+    background-color: #29394B;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 5px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.text-italic {
+    flex-basis: max-content;
+}
+
+.certificates-img {
+    position: absolute;
+    width: 400px;
+    height: 600px;
+}
+
+.lightblue {
+    top: 165px;
+    left: 800px;
+}
+
+.darkblue {
+    top: 135px;
+    left: 981px;
+}
+
+.text-italic {
+    margin-top: -130px;
+    padding-left: 100px;
+    font-size: 16px;
+    font-style: italic ;
+    color: #425061;
+}
+
+.diploma-title {
+    text-align: center;
+    padding-top: 90px;
+    color: #425061;
+    font-size: 30px;
+}
+
+.diploma-wrapper {
+    
+    background-color: #F4F5F7;
+    width: 60%;
+    padding: 35px 60px;
+    margin: 30px 150px;
+}
+
+.text-italic-diploma {
+    width: 69%;
+    margin-top:-20px;
+    font-size: 14px;
+    font-style: italic ;
+
+}
+
+.text-diploma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-image {
+    position: relative;
+    width: 80%;
+    margin: 10px auto;
+    /* padding: 10px 20px; */
+    
+    height: 260px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(73, 73, 90, .4), rgb(73, 73, 90, .7)),
+                url('./images/sign-up-prompt-background.jpg');
+    background-repeat:no-repeat;
+    object-fit: cover;
+
+ }
+
+.bottom-title, .bottom-title-text {
+
+    padding:30px 50px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.bottom-title {
+    font-size: 30px;
+}
+
+.bottom-text {
+    position: absolute;
+    top: -20px;
+}
+
+
+
