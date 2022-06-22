@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #706972;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
+}
+
+h3 {
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+
+.logo img {
+    width: 100%;
+}
+
+.logo {
+    max-width: 100px;
+    margin: 10px auto 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    padding: 40px 50px;
+}
+
+.benefit-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    
+}
+
+.content {
+    padding: 10px 10px;
+}
+
+.benefit {
+    display: flex;
+    flex-direction:column;
+    padding: 20px 0px;   
+}
+
+.benefits {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+}
+
+.benefit p {
+    flex-basis: 100%;
+}
+
+.picture {
+    width: 200%;
+    height: 200%;
+}
+
+.picture img {
+    width: 100%;
+}
+
+h4, .text-benefits {
+    padding: 3px 3px;
+    margin: 0;
+}
+
+.image-benefits {
+    width: 50px;
+    padding: 10px 5px;
+}
+
+.image-benefits img {
+    width: 100%;
+}
