@@ -1,0 +1,131 @@
+@media all and (max-width: 468px) {
+    
+    /* * {
+        padding-bottom: 10px;
+    } */
+    
+    .div-header, .blog article img, .blog-title h4 span, .blog-title a, .magazine-title a {
+        display: none;
+    }
+
+    .logo-center {
+        width: 35%;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+
+    .blog-title h4 {
+        font-size: 30px;
+
+    }
+
+    .options {
+        flex-direction: column;
+    }
+
+    .options article {
+        width: 100%;
+        text-align: center;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery article a {
+        margin-left: 0;
+    }
+
+    .gallery article p {
+        padding-bottom: 10px;
+        padding-top: 20px;
+    }
+
+
+    .button-header {
+        margin: 80px 0 40px 0;
+    }
+
+    article {
+        margin-right: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    img {
+        margin-right: 10px;
+    }
+
+    #about-blog {
+        width: 90%;
+    }
+
+    .magazine-title h4 {
+        font-size: 20px;
+
+    }
+
+    .magazine-title {
+        padding: 39px 0 0 68px;
+        width: 86%;
+        overflow: hidden;
+    }
+
+    .magazine article {
+        width: 100%;
+    }
+  
+    #magazine-img {
+        width: 70%;
+        padding-left: 0;
+        border: none;
+    }
+
+    .magazine-info {
+       margin: 0;
+       text-align: center;
+       padding-top: 40px;
+    }
+    .magazine-info img {
+        width: 100%;
+    }
+
+    .magazine-info > p:nth-child(4) {
+        padding: 20px 30px;
+        font-size: 16px;
+    }
+
+    .magazine-info > h3:nth-child(3) {
+        padding-top: 20px;
+    }
+
+    footer {
+        margin-top: -5px;
+        padding-bottom: 0;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icons a {
+        margin: 10px;
+    }
+
+    footer > p {
+        font-size: 25px;
+    }
+
+}
