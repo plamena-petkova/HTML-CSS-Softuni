@@ -1,0 +1,172 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gelasio', serif;;
+}
+
+.picture {
+    background: url('./images/map.jpg');
+    background-size: cover;
+    min-height: 500px;
+    padding: 10px 10px;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.login{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.login-text {
+    margin-right: 30px;
+    
+}
+
+.login-text, .fa-magnifying-glass {
+    color: #B6B7B7;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.picture-heading {
+    color: white;
+    font-size: 60px;
+    text-shadow: 2px 2px black;
+}
+
+
+.heading-wrapper {
+    width: 100%;
+    text-align: center;
+    padding-top: 200px;
+    
+}
+
+.start {
+    background-color: #146594;
+    color: white;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.articles {
+    display: flex;
+    box-sizing: border-box;
+    padding: 20px 60px;
+}
+
+article p {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+.planning-text {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.packing-text {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 60px;
+}
+
+.budget-text {
+    padding-top: 270px;
+    font-size: 30px;
+    text-shadow: 1px 1px black;
+    padding-left: 10px;
+}
+
+.articles-title{
+    padding-left: 60px;
+    font-size: 40px;
+     padding-top: 10px;
+    margin: 0;
+    color:#53595C;
+}
+
+
+.packing {
+    width: 500px;
+    height: 700px;
+    background: url('./images/packing.jpg');
+    background-size: cover;
+}
+
+.wrapper {
+    width: 500px;
+    height: 700px;
+    margin: -16px;
+}
+
+.planning {
+    width: 700px;
+    height: 350px;
+    background: url('./images/planning.jpg');
+    background-size: cover;
+    margin-top: -14px;
+}
+
+.budget {
+    width: 700px;
+    height: 350px;
+    background: url('./images/budget.jpg');
+    background-size: cover;
+    margin-top: -30px;
+}
+
+
+
+
+.nav-footer {
+    display: flex;
+    align-items: center;
+    background-color: #8C8C8C;
+    color: #B6B7B7;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+ul li {
+    list-style-type: none;
+    margin: 20px 10px;
+    padding-right: 10px;
+    border-right: 1px solid #B6B7B7;
+    font-size: 15px;
+}
+
+
+
+.left-links-list, .right-links-list, .last-links-list {
+    display: flex;
+    
+}
+
+.left-links-list li:last-child, .right-links-list li:last-child, .last-links-list li:last-child {
+    border: none;
+}
+
+.left-links, .right-links, .last-links {
+    margin-right: 40px;
+}
