@@ -1,8 +1,6 @@
 @media all and (max-width: 468px) {
     
-    /* * {
-        padding-bottom: 10px;
-    } */
+
     
     .div-header, .blog article img, .blog-title h4 span, .blog-title a, .magazine-title a {
         display: none;
