@@ -1,0 +1,220 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gelasio', serif;
+    background:url('./Media/background.jpg');
+    background-size: fill;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url('./Media/craving.jpg');
+    
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #514540;
+    padding: 10px 40px;
+    background-color: #E6E3DE;
+}
+
+.logo-text {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0;
+}
+
+.log{
+    margin-right: 30px;
+    background-color: #514540;
+    color: white;
+    padding: 7px 10px;
+    border:none;
+}
+
+.links li {
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+}
+
+.big-picture {
+    
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin: 0;
+    padding: 0;
+}
+
+.picture-text {
+    padding: 10px;
+    margin: 10px;
+    max-width: 450px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+   
+    
+}
+
+input[type=text] {
+    width: 320px;
+
+    padding-top: 10px;
+    color: white;
+    opacity: 60%;
+}
+
+.login {
+    position: relative;
+}
+
+.search-icon {
+    position: absolute;
+    top: 306px;
+    left: 480px;
+    color: #88807F;
+}
+
+footer {
+    background-color:  #E6E3DE;
+    padding: 10px 40px;
+    opacity: 60%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0px 10px;
+    border-right: 1px solid grey;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.view {
+    margin-right: 30px;
+    background-color: #514540;
+    color: white;
+    padding: 7px 10px;
+    border:none;
+    margin: 10px 100px;
+}
+
+.article-item {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    background-color: #E6E3DE;
+    box-sizing: border-box;
+    margin: 25px 30px;
+}
+
+.article-text, .article-title {
+    margin: 0;
+    padding: 0;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 58%;
+    padding: 120px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.picture {
+    width: 900px;
+    height: 400px;
+}
+
+.picture img {
+    width: 100%;
+    height: 100%;
+}
+
+.toolbox {  
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin:30px auto;
+}
+
+.toolbox-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 30%;
+    height: 120%;
+    background-color: #E6E3DE;
+    margin: 20px 10px;
+    
+}
+
+.image-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.toolbox-title {
+    text-align: center;
+    background-color: #E6E3DE;
+    font-weight: 500;
+    font-size: 20px;
+    color: #664430;
+    padding: 10px 30px;
+    margin: 30px 400px;
+}
+
+.image p {
+    padding: 8px 25px;
+    margin: 0;
+    font-style: italic;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.shop {
+    background-color: #DC4F36;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    margin: 15px 400px;
+    font-weight: 600;
+}
+
+.toolbox img {
+    width: 100%;
+}
