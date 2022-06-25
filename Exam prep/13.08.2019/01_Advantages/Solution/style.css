@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.content {
+    width: 90%;
+    height: 80%;
+    margin: 50px auto;
+}
+
+
+
+
+
+.list-wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F4F5F7;
+    margin: 1px 0px;
+}
+
+.list-wrapper:first-child {
+    border-top-left-radius:10px;
+}
+
+.list-wrapper:last-child {
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+}
+
+.list {
+    margin: 0;
+    padding: 10px;
+}
+
+.list-item {
+    list-style-type: none;
+    padding: 15px 15px;
+    width: 70%;
+    min-width: 60%;
+    font-size: 14px;
+}
+
+div.list-wrapper:nth-child(2), div.list-wrapper:nth-child(6) {
+    margin: 0px 0px;
+    
+}
+
+
+ 
+.fa-circle-check {
+    padding: 15px 40px;
+    font-size: 21px;
+    color: #23BE5E;
+  
+}
+
+.wrapper-title {
+    display: flex;
+    justify-content: end;
+    margin: -20px 10px;
+}
+
+.checked {
+    padding: 13px 20px;
+    text-align: end;
+    font-size: 16px;
+    background-color: #42ABF8;
+    color: white;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    width: 100px;
+}

@@ -1,0 +1,229 @@
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica", sans-serif;
+    background-color: #F0E4E4;
+}
+
+.content {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.head-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F93700;
+    padding: 0 20px;
+    font-size: 18px;
+ 
+}
+
+.links li {
+    list-style-type: none;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+.links {
+    padding: 0;
+}
+
+input[type=text] {
+    background-color: white;
+    padding: 10px 5px;
+    width: 300px;
+    border: none;
+}
+
+.links {
+    display: flex;
+}
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.fa-user {
+    margin-right: 10px;
+    color: white;
+}
+
+.user-wrapper a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.fa-magnifying-glass {
+    padding: 13px 20px;
+    background-color: #B6AFAF;
+    color: white;
+    margin: 18px 0px;
+    font-size: 10px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 90%; */
+    margin: 30px auto;
+
+}
+
+.picture-item {
+    margin: 10px 0px;
+    padding-right: 20px;
+    object-fit: contain;
+    text-align: center;
+    color: #80807E;
+}
+
+.picture-item:last-child {
+    padding-left: 0;
+}
+
+.picture-item img {
+    width: 90%;
+    height: 230px;
+}
+
+.picture-text {
+    margin: 0;
+    padding: 10px;
+}
+
+.new-collection {
+    display: flex;
+    /* width: 86%; */
+    margin: 30px auto;
+    /* padding: 10px 10px; */
+}
+
+.collection-text {
+    width: 50%;
+}
+
+.image-collection img {
+    width: 100%;
+   
+}
+
+.collection-title {
+    color: #F93700;
+    font-weight: 300;
+}
+
+.collection-text {
+    color: #817F7B;
+}
+
+.shop {
+    padding: 14px 20px;
+    margin: 0 0px;
+    color: white;
+    background-color: #F93700;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 100px;
+    align-items: center;
+    flex-direction: row;
+    background-color: #CAC3C3;
+
+}
+
+.wrapper-benefits {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.benefit-img {
+    width: 100px;
+    height: 100px;
+    padding: 15px 15px;
+    border-radius: 100%;
+    background-color: #F0E4E4;
+    margin: 20px 15px;
+}
+
+.benefit-img img {
+    width: 100%;
+}
+
+.benefit-title, .benefit-text {
+    padding: 3px 12px;
+    margin: 0 14px; 
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 60px;
+    align-items: bottom;
+}
+
+.footer-nav li  {
+    list-style-type: none;
+    margin: 10px 10px;
+    font-size: 14px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #817F7B; 
+}
+
+.icons {
+    color: #817F7B; 
+    padding: 10px;
+    font-size: 25px;
+}
+
+strong {
+    font-size: 16px;
+}
+
+.about {
+    font-size: 16px;
+}
+
+.footer-links {
+    display: flex;
+    color: #817F7B; 
+    
+}
+
+.footer-contacts {
+    display: flex;
+    color: #817F7B; 
+    align-items: top;
+}
+
+.call {
+    padding: 10px 50px;
+    border: none;
+    background-color: #CAC3C3;
+    border-radius: 5px;
+}
