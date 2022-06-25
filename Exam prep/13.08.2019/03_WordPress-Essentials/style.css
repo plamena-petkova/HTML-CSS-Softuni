@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    background-color:#234465;
+    padding: 0px 100px;
+    align-items: center;
+   
+}
+
+
+
+.links-item {
+    list-style-type: none;
+    display: inline;
+}
+
+.links-item a, .links-item i {
+    color: #8F9FA9;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
+.wrapper-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 60px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.apply, .apply-now {
+    margin: 19px 10px;
+    padding: 9px 20px;
+    background-color: #FFA000;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.entrance a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    text-align:center;
+    margin: 19px 10px;
+    padding: 9px 20px;
+    background-color: #FFA000;
+    border: none;
+    border-radius: 50px;
+}
+
+.title-article {
+    background:url('./Requirements-and-Resources/images/Екранна\ снимка\ 2022-06-25\ 165927.png');
+    /* opacity: 60%;  */
+    height: 250px;
+
+}
+
+.title-article-name {
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    letter-spacing: -1px;
+    text-align: center;
+    padding: 10px 0;
+    margin: -16px;
+}
+
+.courses {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 100px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.info-items {
+    margin-right: 10px;
+    color: white;
+    text-align: center;
+}
+
+.info-items i  {
+    margin-right: 5px;
+}
+
+.courses p {
+    margin-right: 20px;
+    padding: 20px 0px;
+}
+
+.courses p:first-child {
+    color: #CB8117;
+}
+
+.courses p:last-child {
+    font-weight: bold;
+    color: #133667;
+    border-bottom: 3px solid #133667;
+}
+
+.info-items {
+    list-style-type: none;
+    
+}
+
+.apply-now a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 75px;
+}
+
+.wrapper-apply {
+    display: flex;
+    justify-content: center;
+}
+
+.list-benefits li{
+    list-style-type: none;
+    margin: 0px 10px;
+    padding: 5px 10px;
+}
+
+.list-benefits {
+    display: flex;
+}
+
+.text-info, .benefits, .themes {
+    padding: 0 60px;
+    background-color: #F2F2F2;
+    margin: 50px 100px;
+    color: #204465;
+}
+
+.benefits {
+    padding-bottom: 30px;
+}
+
+.text-title, .benefit-title, .themes-title {
+    text-align: center;
+    padding: 12px 0;
+    position: relative;
+}
+
+.benefit-title::after {
+
+    content: '';
+    border-bottom: 3px solid #FFA000;
+    display: inline-block;
+    position: absolute;
+    left: 330px;
+    width: 30%;
+    top: 39px;
+}
+
+.text-title::after {
+    content: '';
+    border-bottom: 3px solid #FFA000;
+    display: inline-block;
+    position: absolute;
+    left: 427px;
+    width: 9%;
+    top: 39px;
+}
+
+.themes-title::after {
+    content: '';
+    border-bottom: 3px solid #FFA000;
+    display: inline-block;
+    position: absolute;
+    left: 451px;
+    width: 4.5%;
+    top: 39px;
+}
+
+.list-wrapper i {
+    color: #FFA000;
+    margin-right: 10px;
+}
+
+
+.list-wrapper {
+    margin: 0px 10px;
+}
+
+.themes-items {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    margin: 0px 0px;
+}
+
+.themes-items li {
+    list-style-type: none;
+    margin: 0px 10px;
+    padding: 10px 10px;
+    background-color: #DADADA;
+    font-size: 12px;
+    font-weight: bold;
+    border-left: 3px solid #234465;
+    color: #565656;
+ 
+}
+
+span {
+    padding-right: 10px;
+    font-weight: bold;
+    color: #133667;
+}
+
+.themes-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(0px, auto);
+}
+
+
+
+
+
+
+
